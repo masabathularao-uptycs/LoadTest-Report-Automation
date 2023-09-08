@@ -117,7 +117,7 @@ if __name__ == "__main__":
 
         doc = add_load_details(doc,details_for_report)
 
-        doc = add_test_env_details(nodes_file_path=nodes_file_path,doc=doc)
+        #doc = add_test_env_details(nodes_file_path=nodes_file_path,doc=doc)
         #-------------------------disk space--------------------------
 
         if variables["add_disk_space_usage"] and variables["load_name"] != "ControlPlane":
