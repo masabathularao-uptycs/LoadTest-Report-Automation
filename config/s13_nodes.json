@@ -1,11 +1,11 @@
 {
     "stack": "S13",
     "stack_url": "https://alphacentauri.uptycs.net/",
-    "elk_url": "",
+    "elk_url": "192.168.140.73",
     "grafana_table_ids": [
-        151,
-        76,
-        162
+        106,
+        108,
+        110
     ],
     "dashboard_uid": "xBggOCkIk",
     "dashboard_name": "kubequeryload",
@@ -35,7 +35,7 @@
     "s13pn1": {
         "storage": {
             "root_partition": "1.8T",
-            "kafka": "3.6T"
+            "kafka": "1.8T"
         },
         "lan_ip": "192.168.143.25",
         "ram": "188",
@@ -45,7 +45,7 @@
     "s13pn2": {
         "storage": {
             "root_partition": "1.8T",
-            "kafka": "3.6T"
+            "kafka": "1.8T"
         },
         "lan_ip": "192.168.142.27",
         "ram": "188",
@@ -55,7 +55,7 @@
     "s13pn3": {
         "storage": {
             "root_partition": "1.8T",
-            "kafka": "3.6T"
+            "kafka": "1.8T"
         },
         "lan_ip": "192.168.141.27",
         "ram": "188",
@@ -103,9 +103,9 @@
     },
     "s13configdb1": {
         "storage": {
-            "root_partition": " 1.8T",
-            "pg": " 1.8T",
-            "data": " 1.8T"
+            "root_partition": "1.8T",
+            "pg": "1.8T",
+            "data": "1.8T"
         },
         "lan_ip": "192.168.143.27",
         "ram": "188",
@@ -114,9 +114,9 @@
     },
     "s13configdb2": {
         "storage": {
-            "root_partition": " 1.8T",
-            "pg": " 1.8T",
-            "data": " 1.8T"
+            "root_partition": "1.8T",
+            "pg": "1.8T",
+            "data": "1.8T"
         },
         "lan_ip": "192.168.143.28",
         "ram": "188",
@@ -125,32 +125,31 @@
     },
     "s13monitor": {
         "storage": {
-            "root_partition": "200G",
+            "root_partition": "196G",
             "data": "5.5T"
         },
         "lan_ip": "192.168.140.73",
-        "ram": "78",
+        "ram": "62",
         "cores": "16",
         "clst": "1"
     },
     "s13elasticsearch": {
         "storage": {
             "root_partition": "196G",
-            "spark": "3.6T"
+            "data": "5.5T"
         },
         "lan_ip": "192.168.140.74",
-        "ram": "78",
-        "cores": "16",
+        "ram": "62",
+        "cores": "8",
         "clst": "1"
     },
     "s13kibana": {
         "storage": {
-            "root_partition": "196G",
-            "spark": "3.6T"
+            "root_partition": "196G"
         },
         "lan_ip": "192.168.140.75",
-        "ram": "78",
-        "cores": "16",
+        "ram": "31",
+        "cores": "4",
         "clst": "1"
     },
     "s13logstash": {
@@ -158,8 +157,19 @@
             "root_partition": "196G"
         },
         "lan_ip": "192.168.140.76",
-        "ram": "47",
-        "cores": "8",
+        "ram": "23",
+        "cores": "4",
+        "clst": "1"
+    },
+    "s13statedb": {
+        "storage": {
+            "root_partition": "246G",
+            "pg": "1.8T",
+            "data": "1.8T"
+        },
+        "lan_ip": "192.168.135.63",
+        "ram": "125",
+        "cores": "16",
         "clst": "1"
     }
 }

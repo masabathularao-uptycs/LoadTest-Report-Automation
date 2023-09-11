@@ -23,6 +23,12 @@
         "Customer": "Single",
         "Total assets": "200K"
     },
+    "Kubequery": {
+        "Number of Customers": "1",
+        "Test type": "Kubequery and K8sosquery Load",
+        "Total Assets": "1200",
+        "Total Clusters": "4"
+    },
     "CombinedLoad":{},
     "AWS_multicustomer":{}
 }
