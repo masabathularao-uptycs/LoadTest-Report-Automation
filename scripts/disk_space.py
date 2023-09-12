@@ -177,6 +177,6 @@ class DISK:
         self.doc.add_heading("Disk Usages", level=2)
         self.save(self.calculate_disk_usage('KAFKA'))
         self.save(self.calculate_disk_usage('HDFS'))
-        self.save(self.pg_disk_calc())
+        #self.save(self.pg_disk_calc())
         return self.doc
     
