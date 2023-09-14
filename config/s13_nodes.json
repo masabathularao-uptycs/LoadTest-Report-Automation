@@ -4,8 +4,13 @@
     "elk_url": "192.168.140.73",
     "grafana_table_ids": [
         106,
-        108,
-        110
+        157,
+        112,
+        156,
+        110,
+        154,
+        119,
+        155
     ],
     "dashboard_uid": "xBggOCkIk",
     "dashboard_name": "kubequeryload",
@@ -21,8 +26,7 @@
     ],
     "pgnodes": [
         "s13configdb1",
-        "s13configdb2",
-        "s13statedb"
+        "s13configdb2"
     ],
     "monitoring_node": [
         "s13monitor"
